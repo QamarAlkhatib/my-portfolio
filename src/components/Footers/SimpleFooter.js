@@ -34,17 +34,17 @@ class SimpleFooter extends React.Component {
     return (
       <>
         <footer className=" footer">
-          <Container>
-            <Row className=" row-grid align-items-center mb-5">
-              <Col lg="6">
+          {/* <Container> */}
+            {/* <Row className=" row-grid align-items-center mb-5"> */}
+              {/* <Col lg="6">
                 <h3 className=" text-primary font-weight-light mb-2">
                   Thank you for supporting us!
                 </h3>
                 <h4 className=" mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
                 </h4>
-              </Col>
-              <Col className="text-lg-center btn-wrapper" lg="6">
+              </Col> */}
+              {/* <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
@@ -102,9 +102,9 @@ class SimpleFooter extends React.Component {
                   Star on Github
                 </UncontrolledTooltip>
               </Col>
-            </Row>
-            <hr />
-            <Row className=" align-items-center justify-content-md-between">
+            </Row> */}
+            {/* <hr /> */}
+            {/* <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
@@ -154,7 +154,7 @@ class SimpleFooter extends React.Component {
                 </Nav>
               </Col>
             </Row>
-          </Container>
+          </Container> */}
         </footer>
       </>
     );
